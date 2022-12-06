@@ -1,0 +1,24 @@
+header{
+    background-color: rgb(255,228,181);
+}
+
+.containerTopo {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.logo {
+    margin: 0 20px;
+    max-width: 50px;
+}
+
+.linkRoute {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
