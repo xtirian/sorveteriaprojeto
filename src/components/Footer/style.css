@@ -1,0 +1,25 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 10px;    
+}
+
+.informacoes p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.logo {
+    height: 100px;
+}
+
+.Copyrights {
+    padding: 15px;
+    font-size: 14px;
+}

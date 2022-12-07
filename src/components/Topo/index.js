@@ -7,7 +7,7 @@ function Cabecalho() {
     return(
         <header>
             <div className="limitar-secao containerTopo">
-                <img src="assets/logo.png" alt="logo" className="logo" />
+                <img src="assets/logo.png" alt="logo" className="logo-top" />
 
                 <nav>                
                     <Link className="Home linkRoute" to="/">Home</Link>

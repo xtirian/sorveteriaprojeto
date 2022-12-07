@@ -8,11 +8,6 @@ header{
     align-items: center;
 }
 
-.logo {
-    margin: 0 20px;
-    max-width: 50px;
-}
-
 .linkRoute {
     margin: 0 20px;
     text-decoration: none;
@@ -21,4 +16,7 @@ header{
     font-weight: bold;
 }
 
-
+.logo-top {
+    margin: 0 20px;
+    max-width: 50px;
+  }

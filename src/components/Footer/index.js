@@ -5,11 +5,11 @@ import './style.css'
 function Footer() {
     return(
         <footer>
-            <sections className="informacoes">
-                <img src="assets/logo.png" alt='logo'/>
+            <sections className="informacoes limitar-secao">
+                <img src="assets/logo.png" alt='logo' className="logo"/>
                 <div className="infocard">
                     <h4>ENDEREÇO</h4>
-                    <p>Av. Bernardino de Campos, 98<br /> São Paulo, SP 12345-678</p>
+                    <p>Av. Bernardino <br /> de Campos, 98<br /> São Paulo, SP 12345-678</p>
                 </div>
                 <div className="infocard">
                     <h4>CONTATO</h4>
@@ -20,7 +20,7 @@ function Footer() {
                     <p>ABERTO TODOS OS DIAS<br/>10:00 - 22:00</p>
                 </div>
             </sections>
-            <section className="Copyrights"><p>Gelateria. Orgulhosamente desenvolvido por "xTirian"</p></section>
+            <section className="Copyrights limitar-secao"><p>Gelateria. Desenvolvida por xTirian</p></section>
         </footer>
     )
 }
