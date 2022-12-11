@@ -9,7 +9,7 @@ function Footer() {
                 <img src="assets/logo.png" alt='logo' className="logo"/>
                 <div className="infocard">
                     <h4>ENDEREÇO</h4>
-                    <p>Av. Bernardino <br /> de Campos, 98<br /> São Paulo, SP 12345-678</p>
+                    <p>Av. Bernardino de Campos, 98<br /> São Paulo, SP 12345-678</p>
                 </div>
                 <div className="infocard">
                     <h4>CONTATO</h4>

@@ -30,7 +30,7 @@ function PaginaHome() {
                     <img src="assets/eventos-image.jpg" alt="banner-eventos" className="grade-img"/>                    
                 </section>
                 <section className="sobre banner-grade">
-                    <img src="assets/banner-sobre.png" alt="banner-sobre" className="grade-img"/>
+                    <img src="assets/sobre-image.jpg" alt="sobre-banner" className="grade-img"/>
                     <div>
                         <h2>SOBRE NÓS</h2>
                         <h3>Alegria em cada casquinha!</h3>
