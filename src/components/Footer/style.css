@@ -23,7 +23,7 @@ footer {
 .Copyrights {
     padding: 15px;
     font-size: 14px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 436px) {
@@ -32,8 +32,7 @@ footer {
     .informacoes p {text-align: center;
     padding-bottom: 10px;
     max-width: 220px;}
-    .Copyrights {
-        margin: 0;}
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -41,7 +40,5 @@ footer {
     .informacoes {flex-direction: column;}
     .informacoes p {text-align: center;
     padding-bottom: 10px;
-    max-width: 220px;}
-    .Copyrights {
-        margin: 0;}    
+    max-width: 220px;}  
 }
