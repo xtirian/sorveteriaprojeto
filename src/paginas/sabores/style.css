@@ -54,3 +54,7 @@ h1 {
     .sabores-container {height: auto;}
     
 }
+
+@media screen and (max-height:436px) {
+    .card {height: 42vh;}
+}
