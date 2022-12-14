@@ -1,0 +1,37 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px grey;
+}
+
+.banner-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(/public/assets/banner-sobre.png) no-repeat center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.sobre-text {
+    height: 50vh;
+}
+
+.sobre-text h3 {
+    font-style: italic;    
+}
+
+.sobre-showindows img {
+    max-width: 50%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 436px) {
+    h1 {font-size: 36px}    
+}
+@media screen and (max-width: 768px) {
+    .sobre-showindows img {width:100%;max-height:50vh;object-fit: cover;
+    } 
+}
