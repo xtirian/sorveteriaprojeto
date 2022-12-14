@@ -74,3 +74,9 @@ h1 {
     .banner-grade h3 {font-size: 14px;}
     .banner-grade p {width: 50vw; text-align: center; font-size: 12px;}
 }
+
+@media screen and (max-height: 436px) {
+    .banner-grade h2 {font-size: 18px;}
+    .banner-grade h3 {font-size: 14px;}
+    .banner-grade p {width: 50vw; font-size: 12px; text-align: justify; margin: 10px;}
+}
