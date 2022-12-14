@@ -15,7 +15,7 @@ h1 {
 }
 
 .sobre-text {
-    height: auto;
+    height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -44,7 +44,9 @@ h1 {
     .sobre-text {height: 100vh;}
     .sobre-text h2 {font-size: 20px;}
     .sobre-text h3 {font-size: 14px;}
-    .sobre-text p {font-size: 13px; padding: 5px;}    
+    .sobre-text p {font-size: 13px; padding: 5px;}   
+}
 
-    
+@media screen and (max-height: 436px) {
+    .sobre-text {height: auto;}
 }
